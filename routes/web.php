@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/', 'MainController@index')->name('main');
+
+Route::get('/a/create', 'AController@create');
+
+Route::get('a', 'AController@index')->name('a');
+Route::get('b', 'BController@index')->name('b');
+
+Route::post('a/store', 'AController@store')->name('storeA');
