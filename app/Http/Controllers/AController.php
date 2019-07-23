@@ -9,11 +9,37 @@ use App\Education;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Response;
+use Auth;
+
 
 class AController extends Controller
 {
     //
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
+        $user = Auth::user();
+        if ($user->aOrganizer == 1) {
+            $rands = A::select('id',
+                'title',
+                'name',
+                'phone',
+                'email',
+                'education_id',
+                'femili',
+                'description',
+                'created_at',
+                'updated_at')->simplePaginate(20);
+        } else {
+            $rands = null;
+        }
 
+        return view("a/index")->with(['items' => $rands]);
+    }
 
     public function create(Request $request)
     {
@@ -89,16 +115,14 @@ class AController extends Controller
         $did->options = json_encode($request->server());
         //  $did->utm = $request->utm;
         $did->save();
-        dump($request);
+
         $education = Education::select('id',
             'name',
             'created_at',
             'updated_at')
             ->where('id', $request->education)
             ->first();
-        dump($did);
-        dump($education);
-        if ($education!=null) {
+        if ($education != null) {
             $education->did()->save($did);
         }
 

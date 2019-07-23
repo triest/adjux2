@@ -12,7 +12,8 @@
     <!--for galeray -->
     <!--end for faleray -->
     <!-- Custom styles for this template -->
-    <script type="text/javascript" src="{{ URL::asset('js/jquery-3.3.1.js') }}"></script>
+    <script src="{{ asset('js/jquery-3.3.1.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}" defer></script>
     <link href="https://getbootstrap.com/docs/4.0/examples/carousel/carousel.css" rel="stylesheet">
     <!-- Bootstrap core CSS -->
     <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -44,7 +45,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
     <!--end for faleray -->
     <!-- Custom styles for this template -->
-    <script type="text/javascript" src="{{ URL::asset('js/jquery-3.3.1.js') }}"></script>
+
     <link href="https://getbootstrap.com/docs/4.0/examples/carousel/carousel.css" rel="stylesheet">
 
 </head>
@@ -73,10 +74,12 @@
             <ul class="navbar-nav">
                 @guest
                     <li class="nav-item">
-
+                        <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                     </li>
                     <li class="nav-item">
-
+                        @if (Route::has('register'))
+                            <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                        @endif
                     </li>
                 @else
                     <li class="nav-item dropdown">
