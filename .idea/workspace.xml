@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1937e12-6d37-410d-a8d8-8bf0eca8b27b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/AContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AContent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Education.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Education.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_07_23_094929_create_a_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_07_23_094929_create_a_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_07_23_095554_create_a_content_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_07_23_095554_create_a_content_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/a/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/a/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/upload/027419dc94ea7ee2b8f208928a09d398.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/upload/036d7ed8561b60d87abc271a5c6346a4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/upload/08c1c5431ee42146de0929889173b063.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/upload/11faaaf88ca97b54e8e116f7cf286933.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/upload/545efeecef5c1779a533efcc22a4b845.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/upload/64fbb558a3019e7e2c73ee9ca9d5d598.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/upload/735d372b9c491562e52f28f1e72495af.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/upload/7b504e5d859d68929ce0aa7e33d3975b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/upload/94d8f852ee2674d67cad3ded6946ba82.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/upload/9bc88f3307e7e4bdd66ee8587696ddd5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/upload/b147266cdbefbed04d8a7a083f16dd16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/upload/b4f1711a48c5617b1ba30e15ed444722.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/upload/c23270ca40894d875d1711a44de1d4a9.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,21 +42,7 @@
       </file>
       <file leaf-file-name="main.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/main.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
-              <folding>
-                <element signature="e#41#51#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="2019_07_23_100835_create_education_table.php" pinned="false" current-in-tab="false">
@@ -62,49 +54,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2019_07_23_111752_add_foregin_key_to_education.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_23_111752_add_foregin_key_to_education.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EducationsTableSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/seeds/EducationsTableSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Education.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Education.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2019_07_23_095554_create_a_content_table.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_23_095554_create_a_content_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="289">
+              <caret line="19" column="69" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2019_07_23_094929_create_a_table.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_23_094929_create_a_table.php">
+      <file leaf-file-name="2019_07_23_111752_add_foregin_key_to_education.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_23_111752_add_foregin_key_to_education.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+            <state relative-caret-position="238">
+              <caret line="16" column="80" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="80" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2019_07_23_112243_add_foregin_key_to_content.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_23_112243_add_foregin_key_to_content.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="29" column="11" selection-start-line="27" selection-start-column="6" selection-end-line="29" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2019_07_23_112747_create_a_organized_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_23_112747_create_a_organized_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2019_07_23_114840_create_b_organized_table.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_23_114840_create_b_organized_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2019_07_23_115126_add_foregin_key_to_a_organized.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_23_115126_add_foregin_key_to_a_organized.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2014_10_12_000000_create_users_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -138,6 +144,10 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/AController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_07_23_111752_add_foregin_key_to_education.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_07_23_094929_create_a_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_07_23_112243_add_foregin_key_to_content.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_07_23_115126_add_foregin_key_to_a_organized.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_07_23_112747_create_a_organized_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_07_23_114840_create_b_organized_table.php" />
       </list>
     </option>
   </component>
@@ -370,7 +380,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563875184031</updated>
-      <workItem from="1563875185504" duration="5570000" />
+      <workItem from="1563875185504" duration="7002000" />
     </task>
     <task id="LOCAL-00001" summary="add A and A content">
       <created>1563876176897</created>
@@ -386,11 +396,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563877986983</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add foregin coe t oeducation">
+      <created>1563880937596</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563880937596</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5570000" />
+    <option name="totallyTimeSpent" value="7002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -429,7 +446,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add A and A content" />
     <MESSAGE value="add create page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add create page" />
+    <MESSAGE value="add foregin coe t oeducation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add foregin coe t oeducation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.env">
@@ -459,9 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -479,32 +494,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/main.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/a/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="63" column="62" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
-          <folding>
-            <element signature="e#2235#2255#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_23_104349_add_options_to_a_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_23_095554_create_a_content_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -553,10 +546,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_23_111752_add_foregin_key_to_education.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_23_094929_create_a_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        <state relative-caret-position="663">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/a/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="63" column="62" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
+          <folding>
+            <element signature="e#2235#2255#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/main.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_23_095554_create_a_content_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="69" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -567,10 +580,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_23_094929_create_a_table.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_23_111752_add_foregin_key_to_education.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        <state relative-caret-position="238">
+          <caret line="16" column="80" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_23_112243_add_foregin_key_to_content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="11" selection-start-line="27" selection-start-column="6" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_23_115126_add_foregin_key_to_a_organized.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_23_112747_create_a_organized_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_23_114840_create_b_organized_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
         </state>
       </provider>
     </entry>
