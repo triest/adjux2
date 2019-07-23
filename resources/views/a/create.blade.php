@@ -61,7 +61,7 @@
                            class="form-control name_list" accept="image/gif,image/jpg, image/jpeg, image/png video/mp4"
                            required/></td>
                 <td>
-                    <button type="button" name="add" id="add" onclick="return f();" class="btn btn-success">Add More
+                    <button type="button" name="add" id="add" class="btn btn-success">Add More
                     </button>
                 </td>
             </tr>
@@ -115,6 +115,7 @@
         $(document).ready(function () {
             var i = 1;
             $('#add').click(function () {
+                console.log('add');
                 i++;
                 $('#dynamic_field').append('<tr id="row' + i + '"><td><input type="file" name="files[]"  accept="image/x-png,image/gif,image/jpeg" class="form-control name_list" required /></td><td><button type="button" name="remove" id="' + i + '" class="btn btn-danger btn_remove">X</button></td></tr>');
             });

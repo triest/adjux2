@@ -1,10 +1,3 @@
-<!--
- * Created by PhpStorm.
- * User: triest
- * Date: 05.12.2018
- * Time: 15:29
- */
-  -->
 <!doctype html>
 <html lang="en">
 <head>

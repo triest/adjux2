@@ -20,8 +20,9 @@ class CreateATable extends Migration
             $table->string('femili', 50)->nullable(true);
             $table->string('phone', 50)->nullable(true);
             $table->text('description')->nullable(true);
-            $table->integer('education_id')->unsigned()->index();
+            $table->bigInteger('education_id')->nullable()->unsigned()->index();
             $table->string('ip', 50)->nullable(true);
+            $table->string('email');
             $table->timestamps();
 
         }

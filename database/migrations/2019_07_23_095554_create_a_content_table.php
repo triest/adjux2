@@ -17,7 +17,7 @@ class CreateAContentTable extends Migration
             $table->increments('id');
             $table->string('file_name', 50)->nullable(true);
             $table->string('content_type', 50)->nullable(true);
-            $table->integer('content_id')->nullable()->unsigned()->index();
+            $table->integer('a_id')->nullable()->unsigned()->index();
             $table->timestamps();
         });
     }

@@ -11,7 +11,7 @@ class AContent extends Model
 
     public function a()
     {
-        return $this->belongsTo('app\AContent');
+        return $this->belongsTo('app\A');
     }
 
 }

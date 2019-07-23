@@ -22,6 +22,6 @@ class Education extends Model
      */
     public function did()
     {
-        return $this->hasMany('App\B');
+        return $this->hasMany('App\A');
     }
 }
