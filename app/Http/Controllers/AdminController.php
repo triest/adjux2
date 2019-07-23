@@ -286,9 +286,7 @@ class AdminController extends Controller
      */
     public function deleteUserB(Request $request)
     {
-        $user = User::find($request->id)->first();
-        $user->aOrganizer = 0;
-        $user->save();
+        DB::table('b_organized')->where('id', $request->id)->delete();
 
         return Response::json(['result' => '200']);
     }
@@ -300,9 +298,7 @@ class AdminController extends Controller
      */
     public function deleteUserA(Request $request)
     {
-        $user = User::find($request->id)->first();
-        $user->bOrganizer = 0;
-        $user->save();
+        DB::table('a_organized')->where('id', $request->id)->delete();
 
         return Response::json(['result' => '200']);
     }

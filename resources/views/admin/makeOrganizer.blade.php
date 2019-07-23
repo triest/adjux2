@@ -97,8 +97,8 @@
         }
 
         function deleteB(item) {
-            console.log('delete b')
-            console.log(item)
+            console.log('delete b');
+            console.log(item);
             $.ajax({
                 type: "POST",
                 url: '/admin/deleteB',
@@ -118,14 +118,22 @@
             $.ajax({
                 type: "POST",
                 url: '/admin/makeA',
-                data: {id: item.id},
-                success: function (data) {
-                    console.log(data);
+                data: {
+                    "_token": "{{ csrf_token() }}",
+                    "id": item.id,
                 },
+                success:
+                    function (data) {
+                        console.log(data);
+                    }
+
+                ,
                 error: function (data, textStatus, errorThrown) {
                     console.log(data);
-                },
-            });
+                }
+                ,
+            })
+            ;
             f()
         }
 
